@@ -75,6 +75,11 @@ game.resources = [
         "src": "data/map/mymap.tmx"
     },
     {
+        "name": "new_map",
+        "type": "tmx",
+        "src": "data/map/new_map.tmx"
+    },
+    {
         "name": "area01_level_tiles",
         "type": "tsx",
         "src": "data/map/area01_level_tiles.tsx"
