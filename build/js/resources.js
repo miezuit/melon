@@ -70,6 +70,11 @@ game.resources = [
         "src": "data/map/game02.tmx"
     },
     {
+        "name": "level1",
+        "type": "tmx",
+        "src": "data/map/level1.tmx"
+    },
+    {
         "name": "mymap",
         "type": "tmx",
         "src": "data/map/mymap.tmx"
