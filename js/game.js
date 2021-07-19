@@ -24,6 +24,20 @@ var game = {
 
         // Run on game resources loaded.
         "loaded" : function () {
-            me.state.set(me.state.PLAY, new game.PlayScreen());
+            me.state.set(me.state.PLAY, new game.PlayScreen())
+
+            me.pool.register("mainPlayer", game.PlayerEntity)
+            me.pool.register("coin", game.Coin)
+            me.pool.register("danger", game.Danger)
+
+            me.input.bindKey(me.input.KEY.LEFT, "left")
+            me.input.bindKey(me.input.KEY.RIGHT, "right")
+            me.input.bindKey(me.input.KEY.A, "left")
+            me.input.bindKey(me.input.KEY.D, "right")
+            me.input.bindKey(me.input.KEY.UP, "jump", true)
+            me.input.bindKey(me.input.KEY.SPACE, "jump", true)
+            me.input.bindKey(me.input.KEY.W, "jump", true)
+
+            me.state.change(me.state.PLAY)
         }
     };

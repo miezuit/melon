@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="23">
+<map version="1.5" tiledversion="1.7.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="32">
  <tileset firstgid="1" source="area01_level_tiles.tsx"/>
  <layer id="1" name="background" width="20" height="15">
   <data encoding="base64">
@@ -34,5 +34,42 @@
     <property name="image" type="file" value="../img/sprite/gripe_run_right.png"/>
    </properties>
   </object>
+  <object id="23" name="coin" x="188.614" y="223.025" width="32" height="32">
+   <properties>
+    <property name="image" type="file" value="../img/sprite/spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="24" name="coin" x="152.103" y="222.793" width="32" height="32">
+   <properties>
+    <property name="image" type="file" value="../img/sprite/spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="25" name="coin" x="227.103" y="222.793" width="32" height="32">
+   <properties>
+    <property name="image" type="file" value="../img/sprite/spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="26" name="coin" x="415.897" y="254.69" width="32" height="32">
+   <properties>
+    <property name="image" type="file" value="../img/sprite/spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="27" name="coin" x="490.897" y="284.862" width="32" height="32">
+   <properties>
+    <property name="image" type="file" value="../img/sprite/spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="28" name="coin" x="578.828" y="350.379" width="32" height="32">
+   <properties>
+    <property name="image" type="file" value="../img/sprite/spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="29" name="coin" x="384" y="352.966" width="32" height="32">
+   <properties>
+    <property name="image" type="file" value="../img/sprite/spinning_coin_gold.png"/>
+   </properties>
+  </object>
+  <object id="30" name="danger" x="320.69" y="353.448" width="60.3448" height="30.1724"/>
+  <object id="31" name="danger" x="514.655" y="355.172" width="61.2069" height="30.1724"/>
  </objectgroup>
 </map>
